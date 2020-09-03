@@ -21,5 +21,24 @@
  rain mainly occur over the volcano slopes facing the low-level flow; the heaviest rainfall usually occurs upslope above the 0.</description>
     </item>
     
+    <item>
+      <title>Water Escaping from a Small Watershed</title>
+      <link>https://yfhuang7.github.io/posts/dunne-and-black-1970/</link>
+      <pubDate>Mon, 29 Oct 2018 19:45:15 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/dunne-and-black-1970/</guid>
+      <description>Well, the title of this paper is &amp;ldquo;Partial Area Contributions to Storm Runoff in a Small New England Watershed&amp;rdquo; by Dunne and Black (1970), but Dunne used a lot of &amp;ldquo;water escaping&amp;rdquo; or &amp;ldquo;water escaped&amp;rdquo; in the article. It made me laugh every time I read water escape from where to where. I hope I can escape successfully, too!
+Dunne and Black created an experiment for testing the theory of Horton overland flow and subsurface flow in their 60-acre backyard in Vermont.</description>
+    </item>
+    
+    <item>
+      <title>Spatialized Flash Flood Guidance (SFFG)</title>
+      <link>https://yfhuang7.github.io/posts/sffg/</link>
+      <pubDate>Fri, 26 Oct 2018 15:13:26 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/sffg/</guid>
+      <description>Douinot et al. (2016) indicate that the FFG method significantly overestimates the intensity necessary to exceed the threshold flow for high intensity events in three catchments in France. They show the importance of the rainfall spatial variability in the estimating the rainfall intensity threshold for the flash flood forecasting. They proposed a Spatialized FFG (SFFG), a modified FFG with considering rainfall spatial characteristics. It has better estimations than the FFG in the high rainfall intensity cases.</description>
+    </item>
+    
   </channel>
 </rss>

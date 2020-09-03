@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research tool on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/research-tool/</link>
+    <description>Recent content in research tool on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 00:53:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/tags/research-tool/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Circular Statistics in R</title>
+      <link>https://yfhuang7.github.io/posts/circular-statistics-in-r/</link>
+      <pubDate>Mon, 12 Nov 2018 00:53:27 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/circular-statistics-in-r/</guid>
+      <description>Circular statistics is a very interesting tool to visualize continuous data, such as direction, angles, or time. I&amp;rsquo;m now applying it to visualize the peakflow occurrence time in Hawaii. I found this book is very helpful: Circular statistics in R by Arthur Pewsey, Markus Neuhauser, and Graeme D. Ruxton. I practiced the functions in the R package, circular, by following this book and applied it to my own research. I&amp;rsquo;m showing some simple examples below, see if you&amp;rsquo;re interested in.</description>
+    </item>
+    
+  </channel>
+</rss>

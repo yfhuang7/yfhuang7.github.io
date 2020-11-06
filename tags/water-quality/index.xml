@@ -22,5 +22,27 @@ This project proposes to characterize the water availability and quality of wate
  Research and document the current status of water availability and nutrient loading in watersheds of Hawaii. Describe the nutrient loading, transport, and nutrient dynamic in Hawaii’s watersheds.</description>
     </item>
     
+    <item>
+      <title>[Current Project] Deriving a sub-daily gridded rainfall dataset by combining rain gauge networks and weather radar in Hawaiʻi</title>
+      <link>https://yfhuang7.github.io/projects/project-radarqpe/</link>
+      <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/projects/project-radarqpe/</guid>
+      <description>(This is the second topic of my Ph.D. dissertation.)
+Current status: Concluded that the NEXRAD LEVEL III rainfall data won&amp;rsquo;e be included, and now testing different merging methods.
+Goals This study seeks a high spatial- and temporal-resolution of rainfall data that can be applied to research of extreme rainfall and streamflow events. Four steps are listed to achieve the goal: 1) collect data, select events and evaluate the rainfall product for Oʻahu; 2) compare existed merging methods with the selected events; 3) adjust the method based on local characteristics; 4) develop a framework and extend to the longer period (2014 – 2018) and maybe other islands.</description>
+    </item>
+    
+    <item>
+      <title>[Current Project] Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands</title>
+      <link>https://yfhuang7.github.io/projects/project-peakflow/</link>
+      <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/projects/project-peakflow/</guid>
+      <description>(This is the first topic of my Ph.D. dissertation.)
+Current status: Manuscript in prep. as first author (plan to submit in 2020)
+Abstract Flooding is a significant threat to life and property in Hawaiʻi. As climate warming continues to alter precipitation patterns and hydrological processes in tropics, characterizing the shifting patterns in magnitude, seasonality, and location of floods will improve our understanding of the consequences of changing climate and better prepare us for future flooding events.</description>
+    </item>
+    
   </channel>
 </rss>

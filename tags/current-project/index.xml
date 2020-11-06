@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Yu-Fen Huang</title>
-    <link>https://yfhuang7.github.io/projects/</link>
-    <description>Recent content in Projects on Yu-Fen Huang</description>
+    <title>current project on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/current-project/</link>
+    <description>Recent content in current project on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Nov 2020 12:06:42 -1000</lastBuildDate>
     
-	<atom:link href="https://yfhuang7.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yfhuang7.github.io/tags/current-project/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Finished projects</title>
-      <link>https://yfhuang7.github.io/projects/project/</link>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yfhuang7.github.io/projects/project/</guid>
-      <description>2019 May - June: Modeled ungaged stream and estimated the streamflow for five locations in Wailua, Kauai, by the Soil &amp;amp; Water Assessment Tool (SWAT) to help CWRM&amp;rsquo;s project of the instream flow standard.
-2016 - 2018: Understand tropical watershed (PI: Dr. Yinphan Tsang).
-2018 Fall: White paper to The State of Hawaiʽi Greenhouse Gas Sequestration Taskforce: Agroforestry and Greenhouse Gas Sequestration in Hawaiʽi: Analyzing policies to promote agroforestry as a greenhouse gas sequestration strategy in Hawaiʽi (by Friswold, Brooke; Hastings, Zoe; Hendrickson, Cole; Huang, Yu-Fen).</description>
-    </item>
     
     <item>
       <title>[Current Project] Characterizing natural flow regime of Hawaiian forest watersheds and its implication on downstream water availability]</title>

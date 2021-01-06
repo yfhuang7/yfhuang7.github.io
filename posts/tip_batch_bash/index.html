@@ -152,9 +152,9 @@
 <p>In my batch, I would like the script to run day by day, or an event period (+- a few days with a date), I thought I will need to list out all the days in a month; set the if statement for nonleap year, and write the script of adding the day, month, and year based on the date. It was so much work, but I found out that I can use this instead all I mentioned before for dealing with the accumulated date:</p>
 <p> </p>
 <pre><code>$(date +%Y -d &quot;$case_date + $i day&quot;
-</code></pre><p> 
-Here, it&rsquo;s saying I want to get the year (<code>+%Y</code>) of the date (<code>$case_date</code>) that is i days after (<code>+ $i day</code>). Isn&rsquo;t it neat? 
- </p>
+</code></pre><p> </p>
+<p>Here, it&rsquo;s saying I want to get the year (<code>+%Y</code>) of the date (<code>$case_date</code>) that is i days after (<code>+ $i day</code>). Isn&rsquo;t it neat?</p>
+<p> </p>
 <h1 id="detecting-if-the-command-is-still-running-on-the-background---pgrep">Detecting if the command is still running on the background - <code>pgrep</code></h1>
 <p>The last tip I would like to share today, is how to know if the command is still running and when to start the next command. In my workflow, some of the command can be run at the same time, but they might take a few hours to finish, and the next commands can only be run when the results and products of current command exist. For running the command at the same time, I will put the run in the background by using <code>&amp;</code> in the end of the command line. For checking if the command is still running, I used <code>$(pgrep -x &quot;&lt;Your command&gt;&quot;)</code>. For example, I&rsquo;ve run a command earlier, <code>RadxConvert ... &amp;</code>, in the script, then I can ask the script to sleep for a while, then wake up and check if those command is still running in the background (check the PID of &ldquo;RadxConvert&rdquo; in my case), if it is still running (with some PIDs returned), then take a nap and check later; if the run is finished (no PID returned), then go to the next command/line in the script:
  </p>

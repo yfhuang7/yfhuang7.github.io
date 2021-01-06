@@ -87,10 +87,10 @@ a:hover {
 
 .item {
     padding: 12px 0;
+    font-size: 50%;
 }
 
 .item-tag {
-    font-size: 200%;
     background-color: var(--accent);
 }
 

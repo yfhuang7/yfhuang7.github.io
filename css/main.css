@@ -36,13 +36,6 @@ img {
     font-size: 3vmin;
 }
 
-.intro > h3 {
-    font-size: 3vmin;
-}
-
-.intro > h4 {
-    font-size: 3vmin;
-}
 
 /* Page content */
 
@@ -75,7 +68,7 @@ a:hover {
 /* Copyright message */
 
 .copyright {
-    font-size: 8px;
+    font-size: 12px;
     margin: 8px 0;
     text-align: center;
 }
@@ -99,7 +92,7 @@ a:hover {
 }
 
 .item-tag {
-    font-size: 10px;
+    font-size: 12px;
     background-color: var(--accent);
 }
 

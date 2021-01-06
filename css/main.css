@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-h4 {
+body h4 {
     font-size: 150%;
 }
 

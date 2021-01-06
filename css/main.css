@@ -39,7 +39,7 @@ img {
 /* Page content */
 
 .content {
-    padding-top: 30px;
+    padding-top: 35px;
 }
 
 /* Profile picture */
@@ -67,7 +67,7 @@ a:hover {
 /* Copyright message */
 
 .copyright {
-    margin: 18px 0;
+    margin: 12px 0;
     text-align: center;
 }
 
@@ -96,7 +96,7 @@ a:hover {
 /* Navigation icons */
 
 .navbar-icon {
-    font-size: 150%;
+    font-size: 100%;
     display: inline-block !important;
 }
 

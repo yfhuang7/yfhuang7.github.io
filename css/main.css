@@ -16,6 +16,10 @@ main {
     max-width: 850px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 img {
     max-width: 100%;
 }

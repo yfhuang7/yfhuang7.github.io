@@ -36,6 +36,14 @@ img {
     font-size: 3vmin;
 }
 
+.intro > h3 {
+    font-size: 3vmin;
+}
+
+.intro > h4 {
+    font-size: 3vmin;
+}
+
 /* Page content */
 
 .content {
@@ -88,7 +96,6 @@ a:hover {
 
 .item {
     padding: 12px 0;
-    font-size: 50%;
 }
 
 .item-tag {

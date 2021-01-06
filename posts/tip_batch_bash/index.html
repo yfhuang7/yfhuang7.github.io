@@ -138,9 +138,7 @@
 
     </div>
 
-    <div align="start" class="content"><p>I&rsquo;m currently writing a batch script for running <a href="https://ncar.github.io/lrose-core/">LROSE</a>, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
+    <div align="start" class="content"><p>I&rsquo;m currently writing a batch script for running <a href="https://ncar.github.io/lrose-core/">LROSE</a>, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.</p>
 <h1 id="know-where-the-run-is-and-debug---echo">Know where the run is and debug - <code>echo</code></h1>
 <p><code>echo</code> is a very common and simple command in bash, and it&rsquo;s usually the first few commands you learn for programming (the same in other programming languages, they don&rsquo;t use <code>echo</code>, but either <code>print</code> or something similar). <code>echo</code> outputs the strings, therefore, it can show you the status and what the value of the valuable at the time. I used <code>echo</code> to know which part of script has completed, where it stopped and gave errors, which variable might have problem.</p>
 <p>example of echo for status with the variable <code>$RADAR_NAME</code>:</p>

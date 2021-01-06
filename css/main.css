@@ -93,14 +93,13 @@ a:hover {
 }
 
 .item-tag {
-    font-size: 12px;
     background-color: var(--accent);
 }
 
 /* Navigation icons */
 
 .navbar-icon {
-    font-size: 150%;
+    font-size: 50%;
     display: inline-block !important;
 }
 

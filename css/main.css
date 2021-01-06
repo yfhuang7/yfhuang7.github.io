@@ -93,6 +93,7 @@ a:hover {
 }
 
 .item-tag {
+    font-size: 12px;
     background-color: var(--accent);
 }
 

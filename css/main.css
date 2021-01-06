@@ -99,6 +99,7 @@ a:hover {
 }
 
 .item-tag {
+    font-size: 10px;
     background-color: var(--accent);
 }
 

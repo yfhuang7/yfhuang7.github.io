@@ -86,11 +86,11 @@ a:hover {
 /* List item for posts/projects */
 
 .item {
-    padding: 12px 0;
+    padding: 8px 0;
 }
 
 .item-tag {
-    padding: 12px 0;
+    padding: 8px 0;
     background-color: var(--accent);
 }
 

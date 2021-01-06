@@ -93,8 +93,8 @@ a:hover {
     padding: 12px 0;
 }
 
-.h4 {
-    font-size: 100%;
+.item > h4 {
+  font-size: 110%;
 }
 
 .item-tag {

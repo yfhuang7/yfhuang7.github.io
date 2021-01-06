@@ -6,7 +6,7 @@
     <description>Recent content on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 12:06:42 -1000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yfhuang7.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,15 @@
       <description>2019 May - June: Modeled ungaged stream and estimated the streamflow for five locations in Wailua, Kauai, by the Soil &amp;amp; Water Assessment Tool (SWAT) to help CWRM&amp;rsquo;s project of the instream flow standard.
 2016 - 2018: Understand tropical watershed (PI: Dr. Yinphan Tsang).
 2018 Fall: White paper to The State of Hawaiʽi Greenhouse Gas Sequestration Taskforce: Agroforestry and Greenhouse Gas Sequestration in Hawaiʽi: Analyzing policies to promote agroforestry as a greenhouse gas sequestration strategy in Hawaiʽi (by Friswold, Brooke; Hastings, Zoe; Hendrickson, Cole; Huang, Yu-Fen).</description>
+    </item>
+    
+    <item>
+      <title>Tips for batch in bash</title>
+      <link>https://yfhuang7.github.io/posts/tip_batch_bash/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/tip_batch_bash/</guid>
+      <description>I&amp;rsquo;m currently writing a batch script for running LROSE, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&amp;rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.</description>
     </item>
     
     <item>
@@ -95,15 +104,6 @@ Goals Simulation from hydrological models are affected by the input data and mod
       <description>Peer-reviewed publication Huang, Y.F., Tsang, Y.P., Strauch, A. M, and Clilverd, H. M. (in prepare). &amp;ldquo;Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands&amp;rdquo;
 Huang, Y.F. and Y. Chen (2019). Numerical Simulations of Seasonal Variations of Rainfall over the Island of Hawaii. J. Appl. Meteor. Climatol., 58, 1219–1232, https://doi.org/10.1175/JAMC-D-18-0078.1
 Munasinghe, D., Cohen, S., Huang, Y.F., Tsang, Y., Zhang, J. and Fang, Z. (2018). &amp;ldquo;Inter-comparison of Satellite Remote Sensing Techniques of Flood Inundation Mapping&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>Tips for batch in bash</title>
-      <link>https://yfhuang7.github.io/posts/tip_batch_bash/</link>
-      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yfhuang7.github.io/posts/tip_batch_bash/</guid>
-      <description>I&amp;rsquo;m currently writing a batch script for running LROSE, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&amp;rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.</description>
     </item>
     
     <item>

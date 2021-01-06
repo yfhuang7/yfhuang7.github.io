@@ -68,7 +68,7 @@ a:hover {
 /* Copyright message */
 
 .copyright {
-    font-size: 12px;
+    font-size: 75%;
     margin: 8px 0;
     text-align: center;
 }
@@ -88,11 +88,12 @@ a:hover {
 /* List item for posts/projects */
 
 .item {
+    font-size: 50%;
     padding: 12px 0;
 }
 
 .item-tag {
-    font-size: 12px;
+    font-size: 50px;
     background-color: var(--accent);
 }
 

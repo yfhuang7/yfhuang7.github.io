@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tags</title>
+        <title>Tips for batch in bash</title>
         
         <style>
 
@@ -65,9 +65,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.74.3" />
         
-            <link href="/tags/index.xml" rel="alternate" type="application/rss&#43;xml" title="Yu-Fen Huang" />
-            <link href="/tags/index.xml" rel="feed" type="application/rss&#43;xml" title="Yu-Fen Huang" />
-        
 
         
 
@@ -85,7 +82,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Tags</a>
+                    <a class="navbar-brand visible-xs" href="#">Tips for batch in bash</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -130,106 +127,40 @@
 
 <main>
 
-    <h2>Tags</h2>
+    <div>
+        <h2>Tips for batch in bash</h2>
+        <h5></h5>
+        
+<a href="https://yfhuang7.github.io/tags/batch"><kbd class="item-tag">batch</kbd></a>
 
-     <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/water-quality/">water quality</a></h4>
-    <h5>November 6, 2020</h5>
-    
+<a href="https://yfhuang7.github.io/tags/bash-shell"><kbd class="item-tag">bash shell</kbd></a>
 
 
+    </div>
+
+    <div align="start" class="content"><p>I&rsquo;m currently writing a batch script for running <a href="https://ncar.github.io/lrose-core/">LROSE</a>, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.</p>
+<h3 id="know-where-the-run-is-and-debug---echo">Know where the run is and debug - <code>echo</code></h3>
+<p><code>echo</code> is a very common and simple command in bash, and it&rsquo;s usually the first few commands you learn for programming (the same in other programming languages, they don&rsquo;t use <code>echo</code>, but either <code>print</code> or something similar). <code>echo</code> outputs the strings, therefore, it can show you the status and what the value of the valuable at the time. I used <code>echo</code> to know which part of script has completed, where it stopped and gave errors, which variable might have problem.</p>
+<p>example of echo for status with the variable <code>$RADAR_NAME</code>:
+<code>echo &quot;Converting NEXRAD RAW data for $RADAR_NAME to CfRadial format now&quot;</code></p>
+<p>If the script finished its run without showing the &ldquo;Converting&hellip;&rdquo;, then I know something wrong before this part, and this part actually not started running yet. If the script stopped at one of the <code>$RADAR_NAME</code>, then there might be some problem for the raw radar data of certain radar. If it printed out all the lines with each radar name, then I know this part has successfully run.</p>
+<h3 id="from-the-past-to-the-future---adding-daysmonthsyears-on-a-date">From the past to the future - Adding days/months/years on a date</h3>
+<p>In my batch, I would like the script to run day by day, or an event period (+- a few days with a date), I thought I will need to list out all the days in a month; set the if statement for nonleap year, and write the script of adding the day, month, and year based on the date. It was so much work, but I found out that I can use this instead all I mentioned before for dealing with the accumulated date:</p>
+<p><code>$(date +%Y -d &quot;$case_date + $i day&quot;</code></p>
+<p>Here, it&rsquo;s saying I want to get the year (<code>+%Y</code>) of the date (<code>$case_date</code>) that is i days after (<code>+ $i day</code>). Isn&rsquo;t it neat?</p>
+<h3 id="detecting-if-the-command-is-still-running-on-the-background">Detecting if the command is still running on the background</h3>
+<p>The last tip I would like to share today, is how to know if the command is still running and when to start the next command. In my workflow, some of the command can be run at the same time, but they might take a few hours to finish, and the next commands can only be run when the results and products of current command exist. For running the command at the same time, I will put the run in the background by using <code>&amp;</code> in the end of the command line. For checking if the command is still running, I used <code>$(pgrep -x &quot;&lt;Your command&gt;&quot;)</code>. For example, I&rsquo;ve run a command earlier, <code>RadxConvert ... &amp;</code>, in the script, then I can ask the script to sleep for a while, then wake up and check if those command is still running in the background (check the PID of &ldquo;RadxConvert&rdquo; in my case), if it is still running (with some PIDs returned), then take a nap and check later; if the run is finished (no PID returned), then go to the next command/line in the script:</p>
+<pre><code>echo &quot;Waiting for RadxConvert, sleep for 8 hours&quot;
+sleep 8h
+PID=$(pgrep -x &quot;RadxConvert&quot;)
+while [ ! -z &quot;$PID&quot; ]; do
+  echo &quot;sleep for 15 mins&quot;
+  sleep 15m
+done
+</code></pre><p>This is what I found useful today doing research, hope you found something exciting and useful as well! Aloha!</p>
 </div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/workshop/">workshop</a></h4>
-    <h5>September 28, 2020</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/wrfhydro/">wrfhydro</a></h4>
-    <h5>September 28, 2020</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/bash-shell/">bash shell</a></h4>
-    <h5>May 8, 2019</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/batch/">batch</a></h4>
-    <h5>May 8, 2019</h5>
-    
-
-
-</div>
- 
 
 </main>
-
-
-
-<div class="pages">
-
-    
-        <a class="icon pages-icon" href="/tags/" rel="prev">
-            <i class="fa fa-arrow-left"></i>
-        </a>
-    
-
-    
-        <a class="icon pages-icon" href="/tags/page/3/" rel="next">
-            <i class="fa fa-arrow-right"></i>
-        </a>
-    
-
-</div>
-
-
 
         <footer>
             <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>

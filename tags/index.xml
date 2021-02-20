@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 22:45:52 -1000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 16:30:19 -1000</lastBuildDate>
     
 	<atom:link href="https://yfhuang7.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>note taking</title>
+      <link>https://yfhuang7.github.io/tags/note-taking/</link>
+      <pubDate>Fri, 19 Feb 2021 16:30:19 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/tags/note-taking/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hula</title>
@@ -219,11 +228,29 @@
     </item>
     
     <item>
-      <title>floods; extreme events; inspired; literature</title>
-      <link>https://yfhuang7.github.io/tags/floods-extreme-events-inspired-literature/</link>
+      <title>extreme events</title>
+      <link>https://yfhuang7.github.io/tags/extreme-events/</link>
       <pubDate>Wed, 07 Nov 2018 13:32:37 +0000</pubDate>
       
-      <guid>https://yfhuang7.github.io/tags/floods-extreme-events-inspired-literature/</guid>
+      <guid>https://yfhuang7.github.io/tags/extreme-events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>floods</title>
+      <link>https://yfhuang7.github.io/tags/floods/</link>
+      <pubDate>Wed, 07 Nov 2018 13:32:37 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/tags/floods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inspired</title>
+      <link>https://yfhuang7.github.io/tags/inspired/</link>
+      <pubDate>Wed, 07 Nov 2018 13:32:37 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/tags/inspired/</guid>
       <description></description>
     </item>
     

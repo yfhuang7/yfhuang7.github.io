@@ -6,7 +6,7 @@
     <description>Recent content on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 22:45:52 -1000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Feb 2021 16:30:19 -1000</lastBuildDate>
     
 	<atom:link href="https://yfhuang7.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -20,6 +20,15 @@
       <description>2019 May - June: Modeled ungaged stream and estimated the streamflow for five locations in Wailua, Kauai, by the Soil &amp;amp; Water Assessment Tool (SWAT) to help CWRM&amp;rsquo;s project of the instream flow standard.
 2016 - 2018: Understand tropical watershed (PI: Dr. Yinphan Tsang).
 2018 Fall: White paper to The State of Hawaiʽi Greenhouse Gas Sequestration Taskforce: Agroforestry and Greenhouse Gas Sequestration in Hawaiʽi: Analyzing policies to promote agroforestry as a greenhouse gas sequestration strategy in Hawaiʽi (by Friswold, Brooke; Hastings, Zoe; Hendrickson, Cole; Huang, Yu-Fen).</description>
+    </item>
+    
+    <item>
+      <title>Obsidian</title>
+      <link>https://yfhuang7.github.io/posts/obsidian/</link>
+      <pubDate>Fri, 19 Feb 2021 16:30:19 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/obsidian/</guid>
+      <description>Obsidian works with plain text Markdown files that sit on your computer. No vendor lock-in, and zero risk of the service getting bought or shutting down.</description>
     </item>
     
     <item>

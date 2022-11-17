@@ -139,7 +139,9 @@
     </div>
 
     <div align="start" class="content"><p><a href="https://water.noaa.gov/about/nwm">The National Water Model (NWM)</a> is a hydrologic modelling framework that simulates observed streamflow and complements official National Weather Service (NWS) river forecasts across the U.S., particularly produces guidance at locations that has no traditional river forecast. In the past, it is very difficult to access any NOAA archives. However, thanks to the <a href="https://www.noaa.gov/information-technology/open-data-dissemination">NOAA Open Data Dissemination (NODD) program</a>, a great number of NOAA data are now online cooperating with Amazon Web Services, Google, and Microsoft Azure. I found archived NWM outputs on <a href="https://console.cloud.google.com/storage/browser/national-water-model?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22))&amp;prefix=&amp;forceOnObjectsSortingFiltering=false">Google Cloud</a>. It&rsquo;s super to have the archive, but the next question came in: <strong>How am I going to bulk download? I don&rsquo;t want to click folders by folders and download files by files.</strong></p>
+<p> </p>
 <p>Fortunately, Google provides the <a href="https://cloud.google.com/sdk/docs/install-sdk">Google Cloud Command Line Interface (gcloud CLI)</a>, and the way to use it is very similar to how we use the shell. You just need to install the latest gcloud CLI with the selected system following their <a href="https://cloud.google.com/sdk/docs/install-sdk#windows">guide</a>. Then, you can start using it!</p>
+<p> </p>
 <p>First, you&rsquo;ll want to know the gsutil URI of the data you&rsquo;re going to download (here, NWM) by checking the configuration:</p>
 <p><img src="/attachments/gsutil.JPG" alt="gsutil.jpg"></p>
 <p>Then, you can go to your terminal or jupyter notebook/lab to view the contains (with the URI) of the folder by typing in the terminal:</p>
@@ -147,7 +149,9 @@
 </code></pre><p>or in jupyter notebook/lab:</p>
 <pre><code>!gsutil -m ls &quot;&lt;gsutil URI&gt;&quot;
 </code></pre><p>Of course, you can view it one the Google Cloud web console, but it will be much faster and clear by using gsutil when there are tons of data in the folder.</p>
+<p> </p>
 <p>After you figure out what data you want to download, you can download it by the concept of <code>cp</code>: simply copy the data from Google Cloud to your computer. The way to use it through gsutil is: <code>gsutil -m cp &quot;&lt;URI of the file&gt;&quot; .</code>. Besides download a single file, you can also download a folder by using <code>gsutil -m cp -r &quot;&lt;URI of the folder&gt;&quot; .</code>. Even better, you can also apply the wildcard using gsutil, ex: <code>gsutil -m ls &quot;gs://national-water-model/nwm.202104*/&quot; .</code> - in my case, it will list all the subfolders and files under each NWM folder in April, 2021.</p>
+<p> </p>
 <p>Is&rsquo;t it cool? Give it a try!</p>
 </div>
 

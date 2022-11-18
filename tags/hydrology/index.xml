@@ -54,17 +54,6 @@ Goals This study seeks a high spatial- and temporal-resolution of rainfall data 
     </item>
     
     <item>
-      <title>[Current Project] Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands</title>
-      <link>https://yfhuang7.github.io/projects/project-peakflow/</link>
-      <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
-      
-      <guid>https://yfhuang7.github.io/projects/project-peakflow/</guid>
-      <description>(This is the first topic of my Ph.D. dissertation.)
-Current status: Manuscript in prep. as first author (plan to submit in 2020)
-Abstract Flooding is a significant threat to life and property in Hawaiʻi. As climate warming continues to alter precipitation patterns and hydrological processes in tropics, characterizing the shifting patterns in magnitude, seasonality, and location of floods will improve our understanding of the consequences of changing climate and better prepare us for future flooding events.</description>
-    </item>
-    
-    <item>
       <title>[Current Project] Understanding the effects of different uncertainty sources on WRF-Hydro modeling on Oʻahu</title>
       <link>https://yfhuang7.github.io/projects/project-wrfhydro/</link>
       <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
@@ -73,6 +62,17 @@ Abstract Flooding is a significant threat to life and property in Hawaiʻi. As c
       <description>(This is the third topic of my Ph.D. dissertation.)
 Current status: Learning and practicing sensitivity analysis with WRF-Hydro
 Goals Simulation from hydrological models are affected by the input data and model parameters. Understanding the major sources of uncertainties is critical to support model calibration, validation and uncertainty reduction. In this study, I will apply the updated sub-daily rainfall to the WRF-Hydro on Oʻahu and conduct sensitivity analysis. In addition, the sensitivity of model parameters that stand for different watershed characteristics (e.</description>
+    </item>
+    
+    <item>
+      <title>[Finished Project] Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands</title>
+      <link>https://yfhuang7.github.io/projects/project-peakflow/</link>
+      <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/projects/project-peakflow/</guid>
+      <description>(This is the first topic of my Ph.D. dissertation.)
+Current status: Manuscript has been published in 2021: Huang, Y.F., Tsang, Y.P., Strauch, A. M, and Clilverd, H. M. 2021 &amp;ldquo;Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands&amp;rdquo;
+Abstract Flooding is a significant threat to life and property in Hawaiʻi. As climate warming continues to alter precipitation patterns and hydrological processes in tropics, characterizing the shifting patterns in magnitude, seasonality, and location of floods will improve our understanding of the consequences of changing climate and better prepare us for future flooding events.</description>
     </item>
     
   </channel>

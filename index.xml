@@ -6,7 +6,7 @@
     <description>Recent content on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Nov 2022 11:56:57 -1000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Dec 2022 18:52:55 -1000</lastBuildDate>
     
 	<atom:link href="https://yfhuang7.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,6 +21,15 @@
 2021: Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands
 2019 May-June: Modeled ungaged stream and estimated the streamflow for five locations in Wailua, Kauai, by the Soil &amp;amp; Water Assessment Tool (SWAT) to help CWRM&amp;rsquo;s project of the instream flow standard.
 2016-2018: Understand tropical watershed (PI: Dr. Yinphan Tsang).</description>
+    </item>
+    
+    <item>
+      <title>NextGen</title>
+      <link>https://yfhuang7.github.io/posts/nextgen/</link>
+      <pubDate>Sun, 18 Dec 2022 18:52:55 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/nextgen/</guid>
+      <description>In previous and current NWM, they showed heterogeneous results across the US. It implied that WRF-Hydro or a single hydrological model is insufficient to represent the local processes. Therefore, a framework that allows multiple models is needed. NextGen Water Resources Model is not an “A” model, but a framework to link different models. The NOAA-OWP expects it to be a “plugin-and-play” framework. To approach the goal, the major challenge is how to plug-in and link models together.</description>
     </item>
     
     <item>

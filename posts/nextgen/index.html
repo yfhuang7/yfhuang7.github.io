@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Tags</title>
+        <title>NextGen</title>
         
         <style>
 
@@ -65,9 +65,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.74.3" />
         
-            <link href="/tags/index.xml" rel="alternate" type="application/rss&#43;xml" title="Yu-Fen Huang" />
-            <link href="/tags/index.xml" rel="feed" type="application/rss&#43;xml" title="Yu-Fen Huang" />
-        
 
         
 
@@ -85,7 +82,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">Tags</a>
+                    <a class="navbar-brand visible-xs" href="#">NextGen</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -130,106 +127,25 @@
 
 <main>
 
-    <h2>Tags</h2>
+    <div>
+        <h2>NextGen</h2>
+        <h5></h5>
+        
+<a href="https://yfhuang7.github.io/tags/hydrology"><kbd class="item-tag">hydrology</kbd></a>
 
-     <div class="item">
+<a href="https://yfhuang7.github.io/tags/modeling"><kbd class="item-tag">modeling</kbd></a>
 
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/sensitivity-analysis/">sensitivity analysis</a></h4>
-    <h5>November 6, 2020</h5>
-    
+<a href="https://yfhuang7.github.io/tags/ngen"><kbd class="item-tag">ngen</kbd></a>
 
 
+    </div>
+
+    <div align="start" class="content"><p>In previous and current NWM, they showed heterogeneous results across the US. It implied that WRF-Hydro or a single hydrological model is insufficient to represent the local processes. Therefore, a framework that allows multiple models is needed. NextGen Water Resources Model is not an “A” model, but a framework to link different models. The NOAA-OWP expects it to be a “plugin-and-play” framework. To approach the goal, the major challenge is how to plug-in and link models together. NextGen overcomes this challenge by (1) applying the <a href="https://bmi.readthedocs.io/en/stable/">Basic Model Interface (BMI)</a>, built by <a href="https://csdms.colorado.edu/wiki/Main_Page">Community Surface Dynamics Modeling System (CSDMS)</a>, as a driver for all models and (2) using the consistent format of input data and parameters with <a href="https://noaa-owp.github.io/hydrofabric/">Hydrofabric</a> based on the <a href="https://docs.opengeospatial.org/is/14-111r6/14-111r6.html">OGC WaterML Hy-Features conceptual model</a>. Any model with its capability to apply BMI and based on Hydrofabric could be a potential model of NextGen.</p>
+<p>In the AGU 2022 Fall meeting, multiple good examples of using NextGen Water Resources Model have been presented: (1) a single model’s (rather than WRF-Hydro) application to different topics, including, <a href="https://github.com/NOAA-OWP/cfe">Conceptual Functional Equivalent (CFE) Model</a>, modified CFE (CFE_x), TOPMODEL (Beven 1997), PET module, <a href="https://github.com/peckhams/topoflow36">TopoFlow</a>, LSTM, etc., (2) improved model (mostly for CFE) results by calibration with soil moistures, (3) setting pre-model threshold to reduce the number of iterations for identifying models and formulations, and (4) “best model at the place” to prove the concept of the Next Gen framework- one can select the best model at the gage/watershed based on the model performances. However, the understanding of “local hydrological processes” seems to be hindered - there were studies that set thresholds and selected formulations uniformly across CONUS, and the others that selected the “local” model based on the best performances within multiple models. A few local studies, including calibration and single model applications, focused on a single or a few watersheds, yet they still didn’t show what “local” part is.</p>
+<p>Currently there is no NextGen application on Hawaiʻi, possibly due to the Hydrofabric does not cover Hawaiʻi at the moment. Since Hydrofabric was built by the OGC WaterML, one may be able to build a Hydrofabric-alike set to start the NextGen framework. To begin NextGen, one could start with reading <a href="https://noaa-owp.github.io/ngen/index.html#autotoc_md3">NGen documentation</a>, understanding how <a href="https://bmi.readthedocs.io/en/stable/">BMI</a> work and how to use <a href="https://noaa-owp.github.io/hydrofabric/">Hydrofabric</a> or create a similar format of it based on <a href="https://docs.opengeospatial.org/is/14-111r6/14-111r6.html">WaterML</a>.</p>
 </div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/water-quality/">water quality</a></h4>
-    <h5>November 6, 2020</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/workshop/">workshop</a></h4>
-    <h5>September 28, 2020</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/wrfhydro/">wrfhydro</a></h4>
-    <h5>September 28, 2020</h5>
-    
-
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/tags/atmospheric-sciences/">atmospheric sciences</a></h4>
-    <h5>April 24, 2019</h5>
-    
-
-
-</div>
- 
 
 </main>
-
-
-
-<div class="pages">
-
-    
-        <a class="icon pages-icon" href="/tags/page/3/" rel="prev">
-            <i class="fa fa-arrow-left"></i>
-        </a>
-    
-
-    
-        <a class="icon pages-icon" href="/tags/page/5/" rel="next">
-            <i class="fa fa-arrow-right"></i>
-        </a>
-    
-
-</div>
-
-
 
         <footer>
             <p class="copyright text-muted">© All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>

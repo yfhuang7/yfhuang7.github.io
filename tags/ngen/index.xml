@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ngen on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/ngen/</link>
+    <description>Recent content in ngen on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2022 18:52:55 -1000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/tags/ngen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NextGen</title>
+      <link>https://yfhuang7.github.io/posts/nextgen/</link>
+      <pubDate>Sun, 18 Dec 2022 18:52:55 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/nextgen/</guid>
+      <description>In previous and current NWM, they showed heterogeneous results across the US. It implied that WRF-Hydro or a single hydrological model is insufficient to represent the local processes. Therefore, a framework that allows multiple models is needed. NextGen Water Resources Model is not an “A” model, but a framework to link different models. The NOAA-OWP expects it to be a “plugin-and-play” framework. To approach the goal, the major challenge is how to plug-in and link models together.</description>
+    </item>
+    
+  </channel>
+</rss>

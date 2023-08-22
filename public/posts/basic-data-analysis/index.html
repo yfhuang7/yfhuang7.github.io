@@ -11,13 +11,12 @@
 
     html body {
         font-family: 'Vollkorn', sans-serif;
-        font-size: 2.2vmin;
         background-color: white;
     }
 
     :root {
         --accent: #4F97A3;
-        --border-width:  12px ;
+        --border-width:  5px ;
     }
 
 </style>
@@ -63,7 +62,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.74.3" />
+ <meta name="generator" content="Hugo 0.117.0">
         
 
         
@@ -95,7 +94,7 @@
                             
                                 <li><a href="/">Home</a></li>
                             
-                                <li><a href="/about/">About</a></li>
+                                <li><a href="https://yufenhuang.notion.site/YU-FEN-HUANG-9152a5c75bc8467289ae6896a45b317f?pvs=4">About</a></li>
                             
                                 <li><a href="/posts/">Posts</a></li>
                             
@@ -219,7 +218,7 @@ summary(Action_cam)</p>
 <p>data_mannual &lt;- read.table(&ldquo;USGS_Waihi_WQ_plots_modified.txt&rdquo;, sep = &ldquo;\t&rdquo;, header = T)</p>
 <h1 id="remove-the-commented-line-in-r-not-changing-the-original-file">Remove the commented line in R (not changing the original file)</h1>
 <p>data_first &lt;- read.table(&ldquo;USGS_Waihi_WQ_plots.txt&rdquo;, header =F, sep =&rsquo;\t&rsquo;, comment.char = &lsquo;#&rsquo;, stringsAsFactors = F)
-data_first &lt;- data_first[-grep(&quot;#&rdquo;, data_first$V1),]
+data_first &lt;- data_first[-grep(&quot;#&quot;, data_first$V1),]
 colnames(data_first) &lt;- as.character(data_first[1,])
 data_first &lt;- data_first[-c(1,2),]
 {% endcodeblock %}</p>
@@ -496,7 +495,7 @@ say(&ldquo;Meow! Sis! I love R and &quot;debug&quot;, you know?&rdquo;, by = &ld
 <p><a href="https://github.com/tpilz/lumpR/"><!-- raw HTML omitted -->lumpR<!-- raw HTML omitted --></a>: Functions for a semi-automated approach of the delineation and description of landscape units and partition into terrain components. It can be used for the pre-processing of semi-distributed large-scale hydrological and erosion models using catena-representation (WASA-SED, CATFLOW). GitHub only package.</p>
 </li>
 <li>
-<p><a href="http://cran.rstudio.com/web/packages/lakemorpho/index.html">lakemorpho</a>: Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The &lsquo;lakemorpho&rsquo; package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.</p>
+<p><a href="http://cran.rstudio.com/web/packages/lakemorpho/index.html">lakemorpho</a>: Lake morphometry metrics are used by limnologists to understand, among other things, the ecological processes in a lake. The &rsquo;lakemorpho&rsquo; package provides the tools to calculate a typical suite of these metrics from an input elevation model and lake polygon.</p>
 </li>
 <li>
 <p><a href="http://cran.rstudio.com/web/packages/Watersheds/index.html">Watersheds</a>: Methods for watersheds aggregation and spatial drainage network analysis.</p>

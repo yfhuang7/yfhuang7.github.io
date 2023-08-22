@@ -6,11 +6,7 @@
     <description>Recent content in data analysis on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Jan 2019 23:11:05 +0000</lastBuildDate>
-    
-	<atom:link href="https://yfhuang7.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 31 Jan 2019 23:11:05 +0000</lastBuildDate><atom:link href="https://yfhuang7.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Data Analysis (in R)</title>
       <link>https://yfhuang7.github.io/posts/basic-data-analysis/</link>

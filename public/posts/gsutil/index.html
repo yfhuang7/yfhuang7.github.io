@@ -11,13 +11,12 @@
 
     html body {
         font-family: 'Vollkorn', sans-serif;
-        font-size: 2.2vmin;
         background-color: white;
     }
 
     :root {
         --accent: #4F97A3;
-        --border-width:  12px ;
+        --border-width:  5px ;
     }
 
 </style>
@@ -63,7 +62,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.74.3" />
+ <meta name="generator" content="Hugo 0.117.0">
         
 
         
@@ -95,7 +94,7 @@
                             
                                 <li><a href="/">Home</a></li>
                             
-                                <li><a href="/about/">About</a></li>
+                                <li><a href="https://yufenhuang.notion.site/YU-FEN-HUANG-9152a5c75bc8467289ae6896a45b317f?pvs=4">About</a></li>
                             
                                 <li><a href="/posts/">Posts</a></li>
                             
@@ -145,9 +144,9 @@
 <p>First, you&rsquo;ll want to know the gsutil URI of the data you&rsquo;re going to download (here, NWM) by checking the configuration:</p>
 <p><img src="/attachments/gsutil.JPG" alt="gsutil.jpg"></p>
 <p>Then, you can go to your terminal or jupyter notebook/lab to view the contains (with the URI) of the folder by typing in the terminal:</p>
-<pre><code>gsutil -m ls &quot;&lt;gsutil URI&gt;&quot;
+<pre tabindex="0"><code>gsutil -m ls &#34;&lt;gsutil URI&gt;&#34;
 </code></pre><p>or in jupyter notebook/lab:</p>
-<pre><code>!gsutil -m ls &quot;&lt;gsutil URI&gt;&quot;
+<pre tabindex="0"><code>!gsutil -m ls &#34;&lt;gsutil URI&gt;&#34;
 </code></pre><p>Of course, you can view it one the Google Cloud web console, but it will be much faster and clear by using gsutil when there are tons of data in the folder.</p>
 <p> </p>
 <p>After you figure out what data you want to download, you can download it by the concept of <code>cp</code>: simply copy the data from Google Cloud to your computer. The way to use it through gsutil is: <code>gsutil -m cp &quot;&lt;URI of the file&gt;&quot; .</code>. Besides download a single file, you can also download a folder by using <code>gsutil -m cp -r &quot;&lt;URI of the folder&gt;&quot; .</code>. Even better, you can also apply the wildcard using gsutil, ex: <code>gsutil -m ls &quot;gs://national-water-model/nwm.202104*/&quot; .</code> - in my case, it will list all the subfolders and files under each NWM folder in April, 2021.</p>

@@ -6,11 +6,7 @@
     <description>Recent content in modeling on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Dec 2022 18:52:55 -1000</lastBuildDate>
-    
-	<atom:link href="https://yfhuang7.github.io/tags/modeling/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 18 Dec 2022 18:52:55 -1000</lastBuildDate><atom:link href="https://yfhuang7.github.io/tags/modeling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Next Generation Water Resources Model</title>
       <link>https://yfhuang7.github.io/posts/nextgen/</link>
@@ -18,17 +14,6 @@
       
       <guid>https://yfhuang7.github.io/posts/nextgen/</guid>
       <description>In previous and current NWM, they showed heterogeneous results across the US. It implied that WRF-Hydro or a single hydrological model is insufficient to represent the local processes. Therefore, a framework that allows multiple models is needed. NextGen Water Resources Model is not an “A” model, but a framework to link different models. The NOAA-OWP expects it to be a “plugin-and-play” framework. To approach the goal, the major challenge is how to plug-in and link models together.</description>
-    </item>
-    
-    <item>
-      <title>[Current Project] Understanding the effects of different uncertainty sources on WRF-Hydro modeling on Oʻahu</title>
-      <link>https://yfhuang7.github.io/projects/project-wrfhydro/</link>
-      <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
-      
-      <guid>https://yfhuang7.github.io/projects/project-wrfhydro/</guid>
-      <description>(This is the third topic of my Ph.D. dissertation.)
-Current status: Learning and practicing sensitivity analysis with WRF-Hydro
-Goals Simulation from hydrological models are affected by the input data and model parameters. Understanding the major sources of uncertainties is critical to support model calibration, validation and uncertainty reduction. In this study, I will apply the updated sub-daily rainfall to the WRF-Hydro on Oʻahu and conduct sensitivity analysis. In addition, the sensitivity of model parameters that stand for different watershed characteristics (e.</description>
     </item>
     
   </channel>

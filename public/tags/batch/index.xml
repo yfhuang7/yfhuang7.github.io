@@ -6,11 +6,7 @@
     <description>Recent content in batch on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://yfhuang7.github.io/tags/batch/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://yfhuang7.github.io/tags/batch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips for batch in bash</title>
       <link>https://yfhuang7.github.io/posts/tip_batch_bash/</link>

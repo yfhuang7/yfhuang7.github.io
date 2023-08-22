@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/posts/</link>
+    <description>Recent content in Posts on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Dec 2022 18:52:55 -1000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Next Generation Water Resources Model</title>
+      <link>https://yfhuang7.github.io/posts/nextgen/</link>
+      <pubDate>Sun, 18 Dec 2022 18:52:55 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/nextgen/</guid>
+      <description>In previous and current NWM, they showed heterogeneous results across the US. It implied that WRF-Hydro or a single hydrological model is insufficient to represent the local processes. Therefore, a framework that allows multiple models is needed. NextGen Water Resources Model is not an “A” model, but a framework to link different models. The NOAA-OWP expects it to be a “plugin-and-play” framework. To approach the goal, the major challenge is how to plug-in and link models together.</description>
+    </item>
+    
+    <item>
+      <title>Download National Water Model (NWM) Data from Google Cloud Using Gsutil</title>
+      <link>https://yfhuang7.github.io/posts/gsutil/</link>
+      <pubDate>Thu, 17 Nov 2022 11:56:57 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/gsutil/</guid>
+      <description>The National Water Model (NWM) is a hydrologic modelling framework that simulates observed streamflow and complements official National Weather Service (NWS) river forecasts across the U.S., particularly produces guidance at locations that has no traditional river forecast. In the past, it is very difficult to access any NOAA archives. However, thanks to the NOAA Open Data Dissemination (NODD) program, a great number of NOAA data are now online cooperating with Amazon Web Services, Google, and Microsoft Azure.</description>
+    </item>
+    
+    <item>
+      <title>The expression between ancient and modern</title>
+      <link>https://yfhuang7.github.io/posts/expression_of_hula/</link>
+      <pubDate>Thu, 28 Jan 2021 22:45:52 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/expression_of_hula/</guid>
+      <description>Today, in the hula class, kumu (hula instructor) answered one of my question bothering me long time while dancing hula - the expression.
+Hula can be classified into two category. Hula kahiko is the older and more traditional form of hula. Hula kahiko is danced to chants in Hawaiian. The instruments can be drums, ipu (gourd), etc. The movement is more basic, and facial expressions are more ritualistic. Whereas, modern hula, hula ʻauana, is softer and melodious with modern instruments such as ukuleles and guitars.</description>
+    </item>
+    
+    <item>
+      <title>23 Unsolved Hydrology Problems</title>
+      <link>https://yfhuang7.github.io/posts/23-unsolved-hydrology-questions/</link>
+      <pubDate>Thu, 28 Jan 2021 09:58:20 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/23-unsolved-hydrology-questions/</guid>
+      <description>Once a while, hydrologist gathered and discussed what the important hydrology questions that are not solved yet. Recently, Blöschl et al. (2019) spent more than a year to survey and conclude 23 unsolved hydrology problems. I really appreciate their work - it&amp;rsquo;s always to know where we are, what the status is, and what our goals are in the community. The problems have been classified into 6 groups - &amp;ldquo;The variability and change&amp;rdquo;, &amp;ldquo;Space variability and scaling&amp;rdquo;, &amp;ldquo;Variability of extreme&amp;rdquo;, &amp;ldquo;Interfaces in hydrology&amp;rdquo;, &amp;ldquo;Measurements and data&amp;rdquo;, &amp;ldquo;Modeling methods&amp;rdquo;, and &amp;ldquo;Interfaces with society&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Tips for batch in bash</title>
+      <link>https://yfhuang7.github.io/posts/tip_batch_bash/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/tip_batch_bash/</guid>
+      <description>I&amp;rsquo;m currently writing a batch script for running LROSE, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&amp;rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.</description>
+    </item>
+    
+    <item>
+      <title>Virtual Workshop Current Topics in Tropical Island</title>
+      <link>https://yfhuang7.github.io/posts/wrf-hydro_vitural_workshop2020/</link>
+      <pubDate>Mon, 28 Sep 2020 14:47:05 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/wrf-hydro_vitural_workshop2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why do I study flash flood in Hawaii?</title>
+      <link>https://yfhuang7.github.io/posts/whystudyflood/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/whystudyflood/</guid>
+      <description>Personal Driven In 2016, I joined Tsang Hydrology Lab because I want to know what&amp;rsquo;s happening when the rain hit the ground. With the same amount of rainfall, why did cause flood sometimes but sometimes not?
+Yet, in the first two year, I wasn&amp;rsquo;t really focus on my questions since everything was so new, so interesting, and so inspiring after I switch my major from atmospheric sciences into natural resources and environmental management.</description>
+    </item>
+    
+    <item>
+      <title>Hula Instrument - ʻulili and ʻukēkē</title>
+      <link>https://yfhuang7.github.io/posts/hula-instrument/</link>
+      <pubDate>Wed, 01 May 2019 22:58:26 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/hula-instrument/</guid>
+      <description>It was always amazing to watch Merrie Monarch. Besides hula, I can learn about Hawaiian mele (songs) and also the hula instruments. I&amp;rsquo;ve been watching Merrie Monarch for 3 years, and I&amp;rsquo;m still learning about the hula instruments that I&amp;rsquo;ve never seen. In Merrie Monarch 2019, there are two interesting instruments - ʻulili and ʻukēkē.
+ʻulili I thought it was some kind of ʻuliʻuli while watching TV. But kumu Noe told us that it was ʻulili.</description>
+    </item>
+    
+    <item>
+      <title>Reanalysis vs. Observation</title>
+      <link>https://yfhuang7.github.io/posts/reanalysis_vs_observation/</link>
+      <pubDate>Wed, 24 Apr 2019 11:08:35 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/reanalysis_vs_observation/</guid>
+      <description>As a hydrological modeler, meteorological forcing is always crucial and challenging. Although I&amp;rsquo;ve heard re-analysis for a quite long time, I&amp;rsquo;ve never really tried to understand it till now. All I knew was that reanalysis is combining observation and model to produce gridded, 3-dimensional atmospheric data.
+I found a BAMS essay by Wendy S. Parker (September 2016): REANALYSES AND OBSERVATIONS - What&amp;rsquo;s the Difference?. My idea of reanalysis wasn&amp;rsquo;t too far, yet I was surprised that the re-analysis is not too different from observation except that we have less understanding of accuracy and uncertainty in re-analysis than observation.</description>
+    </item>
+    
+    <item>
+      <title>Quick and Dirty But Long-Lasting - Cardboard Box Shelf</title>
+      <link>https://yfhuang7.github.io/posts/cardboard-shelf/</link>
+      <pubDate>Sun, 03 Mar 2019 19:55:57 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/cardboard-shelf/</guid>
+      <description>There were a lot of cardboard boxes on the ground with his stocks inside when I visited my friend&amp;rsquo;s place. I asked him &amp;ldquo;don&amp;rsquo;t you feel inconvenient walking around?&amp;rdquo; He said yes, but he got used to it and didn&amp;rsquo;t know what he can do for his stocks.
+I asked him &amp;ldquo;do you want to buy a shelf?&amp;rdquo; He said he doesn&amp;rsquo;t want to spend money on the shelf and there is no elevator in his place.</description>
+    </item>
+    
+    <item>
+      <title>Basic Data Analysis (in R)</title>
+      <link>https://yfhuang7.github.io/posts/basic-data-analysis/</link>
+      <pubDate>Thu, 31 Jan 2019 23:11:05 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/basic-data-analysis/</guid>
+      <description>Note: This piece is a quick view for data analysis,my experience of data analysis, and summary of R packages for water analysis. It might not cover everything, if you have more questions, other interests, or any suggestion, I welcome and appreciate.
+What is data analysis? Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making. - Wikipedia</description>
+    </item>
+    
+    <item>
+      <title>How to build a staff plate in a mountainous stream? (part I)</title>
+      <link>https://yfhuang7.github.io/posts/built-staff-plate/</link>
+      <pubDate>Sun, 09 Dec 2018 02:01:13 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/built-staff-plate/</guid>
+      <description>Why do we need a staff plate?
+We need staff plate for knowing the stage (water height) while we&amp;rsquo;re measuring streamflow to build rating curve - a relationship between discharge and stage that allows us to know discharge by only stage.
+Why do we need to have a staff plate if we have other continuous stage sensors (i.e. pressure transducer) already?
+A staff plate is a datum that it won&amp;rsquo;t shift, so it&amp;rsquo;s a solid reference for the streamflow.</description>
+    </item>
+    
+    <item>
+      <title>Kodama and Barnes 1997</title>
+      <link>https://yfhuang7.github.io/posts/kodama-and-barnes-1997/</link>
+      <pubDate>Fri, 07 Dec 2018 08:46:34 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/kodama-and-barnes-1997/</guid>
+      <description>Kodama and Barnes (1997) had a great literature review in flash flood and the flash flood in Hawaii from meteorological perspectives. They conducted their research on southeast Mauna Loa from 1978 through 1992. By looking into synoptic influences, rainfall patterns, stability indices, precipitable water, upslope component of the surface winds, midlevel moisture, they found:
+ rain mainly occur over the volcano slopes facing the low-level flow; the heaviest rainfall usually occurs upslope above the 0.</description>
+    </item>
+    
+    <item>
+      <title>Kumu Noe I</title>
+      <link>https://yfhuang7.github.io/posts/kumu-noe-1/</link>
+      <pubDate>Fri, 30 Nov 2018 19:14:17 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/kumu-noe-1/</guid>
+      <description>Before the performance, kumu hula Noe told us:
+Hula is a package deal, you need to get your timing, follow the rhythm, make sure the right gesture, and be grateful and strong at the same time. Also, you need to show your personality! If you just dance the dance, it&amp;rsquo;s not hula, student.
+I&amp;rsquo;ve been dancing hula in UH with kumu Noe for two years. Kumu is strict at the same time she try her best to respect her student, other halau, and other culture.</description>
+    </item>
+    
+    <item>
+      <title>Circular Statistics in R</title>
+      <link>https://yfhuang7.github.io/posts/circular-statistics-in-r/</link>
+      <pubDate>Mon, 12 Nov 2018 00:53:27 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/circular-statistics-in-r/</guid>
+      <description>Circular statistics is a very interesting tool to visualize continuous data, such as direction, angles, or time. I&amp;rsquo;m now applying it to visualize the peakflow occurrence time in Hawaii. I found this book is very helpful: Circular statistics in R by Arthur Pewsey, Markus Neuhauser, and Graeme D. Ruxton. I practiced the functions in the R package, circular, by following this book and applied it to my own research. I&amp;rsquo;m showing some simple examples below, see if you&amp;rsquo;re interested in.</description>
+    </item>
+    
+    <item>
+      <title>If precipitation extremes are increasing, why aren&#39;t floods?</title>
+      <link>https://yfhuang7.github.io/posts/sharma-et-al-2018/</link>
+      <pubDate>Wed, 07 Nov 2018 13:32:37 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/sharma-et-al-2018/</guid>
+      <description>I appreciate all the efforts that has been done for the previous research. Some papers provide us knowledge; some papers correct our imagination of the world; some papers gave a clear picture of how the world processing, and some papers inspire and encourage us. Ashish&amp;rsquo;s paper is one of the inspiration, at least to me.
+I met Dr. Ashish Sharma in the Asia Oceania Geosciences Society conference this year. I accidently went to his talk, and was impressed by how clear he explain a concept.</description>
+    </item>
+    
+    <item>
+      <title>Water Escaping from a Small Watershed</title>
+      <link>https://yfhuang7.github.io/posts/dunne-and-black-1970/</link>
+      <pubDate>Mon, 29 Oct 2018 19:45:15 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/dunne-and-black-1970/</guid>
+      <description>Well, the title of this paper is &amp;ldquo;Partial Area Contributions to Storm Runoff in a Small New England Watershed&amp;rdquo; by Dunne and Black (1970), but Dunne used a lot of &amp;ldquo;water escaping&amp;rdquo; or &amp;ldquo;water escaped&amp;rdquo; in the article. It made me laugh every time I read water escape from where to where. I hope I can escape successfully, too!
+Dunne and Black created an experiment for testing the theory of Horton overland flow and subsurface flow in their 60-acre backyard in Vermont.</description>
+    </item>
+    
+    <item>
+      <title>Spatialized Flash Flood Guidance (SFFG)</title>
+      <link>https://yfhuang7.github.io/posts/sffg/</link>
+      <pubDate>Fri, 26 Oct 2018 15:13:26 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/sffg/</guid>
+      <description>Douinot et al. (2016) indicate that the FFG method significantly overestimates the intensity necessary to exceed the threshold flow for high intensity events in three catchments in France. They show the importance of the rainfall spatial variability in the estimating the rainfall intensity threshold for the flash flood forecasting. They proposed a Spatialized FFG (SFFG), a modified FFG with considering rainfall spatial characteristics. It has better estimations than the FFG in the high rainfall intensity cases.</description>
+    </item>
+    
+    <item>
+      <title>[Japanese] Piri</title>
+      <link>https://yfhuang7.github.io/posts/piri/</link>
+      <pubDate>Wed, 10 Oct 2018 22:55:24 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/piri/</guid>
+      <description>Dinner time today with some Japanese friends:
+During the dinner time, someone was doing something dangerous, so my friend told me that &amp;ldquo;Abunai&amp;rdquo; is dangerous in Japanese. Later on, one of my friends brought very yummy food, I said &amp;ldquo;ちょっと危ない (Chotto Abunai means a little dangerous)&amp;quot;, dangerous in the way that I tend to eat too much&amp;hellip;
+Then I thought of &amp;ldquo;piri karai (means a little spicy)&amp;rdquo;, I changed the saying to &amp;ldquo;piri abunai!</description>
+    </item>
+    
+  </channel>
+</rss>

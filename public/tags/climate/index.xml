@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>climate on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/climate/</link>
+    <description>Recent content in climate on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2020 12:06:42 -1000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/tags/climate/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[Finished Project] Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands</title>
+      <link>https://yfhuang7.github.io/projects/project-peakflow/</link>
+      <pubDate>Fri, 06 Nov 2020 12:06:42 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/projects/project-peakflow/</guid>
+      <description>(This is the first topic of my Ph.D. dissertation.)
+Current status: Manuscript has been published in 2021: Huang, Y.F., Tsang, Y.P., Strauch, A. M, and Clilverd, H. M. 2021 &amp;ldquo;Shifting magnitude and seasonality of streamflow extremes and the relationship with rainfall across the Hawaiian Islands&amp;rdquo;
+Abstract Flooding is a significant threat to life and property in Hawaiʻi. As climate warming continues to alter precipitation patterns and hydrological processes in tropics, characterizing the shifting patterns in magnitude, seasonality, and location of floods will improve our understanding of the consequences of changing climate and better prepare us for future flooding events.</description>
+    </item>
+    
+  </channel>
+</rss>

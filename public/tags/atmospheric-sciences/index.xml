@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>atmospheric sciences on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/atmospheric-sciences/</link>
+    <description>Recent content in atmospheric sciences on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Apr 2019 11:08:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/tags/atmospheric-sciences/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reanalysis vs. Observation</title>
+      <link>https://yfhuang7.github.io/posts/reanalysis_vs_observation/</link>
+      <pubDate>Wed, 24 Apr 2019 11:08:35 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/reanalysis_vs_observation/</guid>
+      <description>As a hydrological modeler, meteorological forcing is always crucial and challenging. Although I&amp;rsquo;ve heard re-analysis for a quite long time, I&amp;rsquo;ve never really tried to understand it till now. All I knew was that reanalysis is combining observation and model to produce gridded, 3-dimensional atmospheric data.
+I found a BAMS essay by Wendy S. Parker (September 2016): REANALYSES AND OBSERVATIONS - What&amp;rsquo;s the Difference?. My idea of reanalysis wasn&amp;rsquo;t too far, yet I was surprised that the re-analysis is not too different from observation except that we have less understanding of accuracy and uncertainty in re-analysis than observation.</description>
+    </item>
+    
+  </channel>
+</rss>

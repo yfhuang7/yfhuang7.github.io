@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>batch on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/batch/</link>
+    <description>Recent content in batch on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/tags/batch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips for batch in bash</title>
+      <link>https://yfhuang7.github.io/posts/tip_batch_bash/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/tip_batch_bash/</guid>
+      <description>I&amp;rsquo;m currently writing a batch script for running LROSE, a software that allows me to convert raw radar reflectivity into rainrate and accumulated rainfall. The software is working on Linux system, and it takes multiple steps to achieve the goal. Thus, I wrote a batch script in bash. It&amp;rsquo;s not my first time writing bash script, but it was the first time I used more statement and loop. I would like to share some useful lines here with you.</description>
+    </item>
+    
+  </channel>
+</rss>

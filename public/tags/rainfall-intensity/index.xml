@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rainfall intensity on Yu-Fen Huang</title>
+    <link>https://yfhuang7.github.io/tags/rainfall-intensity/</link>
+    <description>Recent content in rainfall intensity on Yu-Fen Huang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Oct 2018 19:45:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://yfhuang7.github.io/tags/rainfall-intensity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Water Escaping from a Small Watershed</title>
+      <link>https://yfhuang7.github.io/posts/dunne-and-black-1970/</link>
+      <pubDate>Mon, 29 Oct 2018 19:45:15 +0000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/dunne-and-black-1970/</guid>
+      <description>Well, the title of this paper is &amp;ldquo;Partial Area Contributions to Storm Runoff in a Small New England Watershed&amp;rdquo; by Dunne and Black (1970), but Dunne used a lot of &amp;ldquo;water escaping&amp;rdquo; or &amp;ldquo;water escaped&amp;rdquo; in the article. It made me laugh every time I read water escape from where to where. I hope I can escape successfully, too!
+Dunne and Black created an experiment for testing the theory of Horton overland flow and subsurface flow in their 60-acre backyard in Vermont.</description>
+    </item>
+    
+  </channel>
+</rss>

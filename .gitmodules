@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/yfhuang7/yfhuang7.github.io.git
 	branch = master
+[submodule "themes/minimal-bootstrap-hugo-theme"]
+	path = themes/minimal-bootstrap-hugo-theme
+	url = https://github.com/zwbetz-gh/minimal-bootstrap-hugo-theme.git

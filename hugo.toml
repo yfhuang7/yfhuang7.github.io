@@ -57,7 +57,7 @@ googleAnalytics = ""
 
 [[menu.icon]]
     url = "https://twitter.com/WaterYFHuang/"
-    name = "twitter"
+    name = "x-twitter"
     weight = 3
 
 [[menu.icon]]

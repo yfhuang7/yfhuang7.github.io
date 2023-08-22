@@ -5,6 +5,16 @@
     <link>https://yfhuang7.github.io/</link>
     <description>Recent content on Yu-Fen Huang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://yfhuang7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2023 09:55:08 -1000</lastBuildDate><atom:link href="https://yfhuang7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://yfhuang7.github.io/posts/test/</link>
+      <pubDate>Tue, 22 Aug 2023 09:55:08 -1000</pubDate>
+      
+      <guid>https://yfhuang7.github.io/posts/test/</guid>
+      <description>test This is a test page after changing laptop</description>
+    </item>
+    
   </channel>
 </rss>
